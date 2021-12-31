@@ -1,0 +1,15 @@
+.hr-tag {
+  height: 0.1em;
+  opacity: 0.1;
+  width: 100%;
+  border-width: 0;
+
+  background-color: black;
+}
+/* mobilePhone: "",
+            AddressNum: "",
+            AddressLineOne: "",
+            AddressLineTwo: "",
+            province: "",
+            postcode: "",
+            nic: "", */

@@ -1,0 +1,20 @@
+
+.clientProjectScrolly {
+    height: 24rem;
+    overflow-y: scroll;
+}
+  
+.clientProjectScrolly::-webkit-scrollbar {
+    width: 1px;
+}
+  
+.clientProjectScrolly::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+.client-project-detail-card{
+    border: none;
+    padding: 0%;
+    padding-left: 1%;
+    pointer-events: none;
+}

@@ -1,0 +1,418 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*stylling for view all consultancy projects*/
+
+.newSearch {
+  background: white;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 4%;
+}
+
+.card-info-consult {
+  background-color: whitesmoke;
+  border-radius: 1em;
+  width: 95%;
+  margin: 1.1em;  
+  height: max-content;  
+  padding: 1em 1em 1em 1em;
+  border-color: #7c7b7c;
+  border: 10px;
+}
+
+.newCol {
+  padding: 0;
+}
+
+.scrolly {
+  height: max-content;
+  overflow-y: scroll;
+}
+
+.scrolly::-webkit-scrollbar {
+  width: 1px;
+}
+
+.scrolly::-webkit-scrollbar-thumb {
+  background: white;
+}
+
+.card-project-title {
+  text-align: center;
+  font-weight: bolder;
+  padding-bottom: 10%;
+  color: #008cb7;
+  font-size: 20px;
+  text-transform: uppercase;
+    font-family: 'Segoe UI';
+}
+
+.clientEmplo-card {
+  text-align: center;
+  padding-top: 5%;
+}
+
+.bottom-date {
+  margin-top: 40px;
+  padding: 10px;
+  background-color: #3eadcf;
+  font-size: 0.85em;
+  width: 100%;
+  text-align: right;
+  border-bottom-right-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.card-3d-wrap {
+  position: relative;
+  width: 240px;
+  max-width: calc(100% - 20px);
+  height: 230px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  margin-top: 40px;
+}
+.card-3d-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  transition: transform 700ms 400ms ease-out;
+}
+.card-front {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  border-radius: 6px;
+  left: 0;
+  top: 0;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  box-shadow: -10px -10px 5px 5px rgba(16, 39, 112, 0.07);
+}
+
+.pricing-wrap {
+  position: relative;
+  padding-top: 40px;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+/*stylling for add popup add stage*/
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup-inner {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 995px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+
+.popup-inner .close-btn {
+  position: absolute;
+  background: linear-gradient(to right, #0467e9, #009ffd);
+  border-radius: 20px;
+  padding: 3px;
+  color: white;
+  width: 40px;
+  border: none;
+  right: 42px;
+}
+.btn-add {
+  background: linear-gradient(to right, #0467e9, #009ffd);
+  border-radius: 20px;
+  padding: 4px;
+  color: white;
+  width: 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* bottom: 30px; */
+  /* left: 700px; */
+  float: right;
+}
+.card-note {
+  width: max-content;
+  margin-top: 1px;
+  margin-right: 1px;
+}
+.card-styel {
+  right: 100px;
+}
+.form-pop {
+  background-color: whitesmoke;
+  padding: 1rem;
+}
+.form-control {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.loding-div {
+  background-color: whitesmoke;
+}
+.text-right {
+  margin-right: 20px;
+}
+.img {
+  height: 80px;
+  width: 80px;
+  position: relative;
+}
+
+.searchConsults {
+  margin-left: 2%;
+  width: 95%;
+  margin-bottom: 2%;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+.date-cons {
+  text-align: end;
+  margin-top: 2em;
+  color: black;
+}
+
+.card-info-consult:hover {
+  color: #0467e9;
+}
+.card-h5 {
+  height: 2.8rem;
+  text-transform: uppercase;
+    font-family: 'Segoe UI';
+
+}
+.crate-info {
+  padding: 1em 1em 1em 1em;
+}
+/* Edit info popup */
+/*stylling for add popup add stage*/
+
+.emp-consults-popup-edit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.emp-consults-popup-inner-edit {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 800px;
+  /* background-color :red; */
+  background: url("../../images/editlas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-size: 70rem; */
+  /* background-position-x: right;
+  background-position-y: center;  */
+  /* background: url("../images/some-background.jpg"); */
+  border-radius: 5px;
+  height: 30rem;
+}
+
+.emp-consults-popup-inner-edit .emp-consults-close-btn {
+  position: absolute;
+  background: linear-gradient(to right, #0467e9, #009ffd);
+  border-radius: 20px;
+  padding: 3px;
+  color: white;
+  width: 40px;
+  border: none;
+  /* right: 0px; */
+  left: 48.5rem;
+  /* top: 0.5rem; */
+  bottom: 29rem;
+}
+.edit-btn {
+  margin-right: 0.5rem;
+}
+.edit-form-card {
+  background-color: white;
+  /* background: linear-gradient(to right, #2193b0, #6dd5ed); */
+  border-radius: 1em;
+  width: 32rem;
+  margin: 1.1em;
+  height: 25rem;
+  padding: 1em 1em 1em 1em;
+  border-color: #9c879c;
+  border: 10px;
+  float: right;
+  margin-top: 40px;
+}
+.edit-h1-name {
+  background-color: #6fa7f0;
+  padding: 0.5rem;
+  /* margin-right: 10rem; */
+}
+.form_input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+.form-control-edit {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  border-bottom: 2px solid #797979;
+  background: transparent;
+  font-family: "Roboto";
+}
+.descr-form {
+  height: 10rem;
+}
+.update-btn {
+  margin-top: 5rem;
+  /* padding: 0.5rem; */
+}
+.edit-h1-name-xtx {
+  color: whitesmoke;
+}
+.swal-wide {
+  width: 320px !important;
+}
+.delete-btn {
+  background: linear-gradient(to right, #ff0000, #f56545);
+  border-radius: 20px;
+  padding: 4px;
+  color: white;
+  width: 35px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  float: right;
+  margin-right: 5px;
+}
+.assignmenticon-style {
+  height: 10rem;
+}
+.swal-wide-del {
+  width: 320px !important;
+}
+.edit-btn {
+  background: linear-gradient(to right, #0467e9, #009ffd);
+  border-radius: 20px;
+  padding: 4px;
+  color: white;
+  width: 35px;
+  border: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* top: 31px; */
+  /* left: 660px; */
+}
+.delete-indi {
+  background: linear-gradient(to right, #ff0000, #f56545);
+  border-radius: 20px;
+  padding: 4px;
+  color: white;
+  width: 35px;
+  border: none;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* left: 700px; */
+}
+.bgtry {
+  background: url("../../images/crtform3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .main-dics{
+  margin-left: 400px;
+  margin-right: 30px;
+} */
+
+/* consult chat design css */
+.consultschatBox{
+  flex: 6.5;
+  background-color: white;
+  border-radius: 25px;
+
+}
+.consultschatBoxTop{
+  height: 19rem;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.consultschatBoxTop::-webkit-scrollbar {
+  width: 6px;
+}
+.consultschatBoxTop::-webkit-scrollbar-thumb {
+    background: hidden;
+    border-radius: 6px;
+  }
+.consultschatBoxBottom{
+  margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* ------------------------------------ */
+.emp-consults-info-h4{
+  height: max-content;
+  height: max-content;
+  text-transform: uppercase;
+    font-family: 'Segoe UI';
+}
+.emp-consults-info{
+  font-family: 'Segoe UI';
+  
+}

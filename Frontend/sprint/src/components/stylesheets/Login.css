@@ -1,0 +1,19 @@
+.login-container {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #2a2a72;
+  background-image: radial-gradient(#009ffd 0%, #2a2a72 105%);
+  overflow: hidden;
+}
+
+.sprint_logo {
+  cursor: pointer;
+}
+
+.logout-btn {
+  color: white;
+  position: absolute;
+  right: 0;
+  padding-right: 2em;
+}

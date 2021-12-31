@@ -1,0 +1,275 @@
+.employee-contacts-btn{
+  background: linear-gradient(to right, #015cd3, #009ffd);
+    border-radius: 20px;
+    color:white;
+    width: 130px;
+    border: none;
+}
+
+.employee-contacts-btn-view{
+    padding: 5px;
+    line-height: 15px;
+    width: 100px;
+}
+
+.employee-contacts-boxContainer {
+  margin-left: 2%;
+  margin-right: 3%;
+  margin-top: 2%;
+  height: 40px;
+  color: #424242;
+  margin-bottom: 2%;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.employee-contacts-boxContainer:focus {
+  outline: none;
+}
+
+.employee-contacts-close-btn {
+  background: white;
+  padding: 3px;
+  color: #0467e9;
+  width: auto;
+  border: none;
+  right: 35px;
+}
+
+.employee-contacts-close-btn :hover {
+  cursor: pointer;
+}
+
+.employee-contacts-bottom-close-btn {
+  width: auto;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.employee-contacts-mode {
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.main-mode {
+  width: 100%;
+}
+
+.employee-contacts-padd {
+  padding-top: 10px;
+}
+
+.employee-contacts-left-bord {
+  border-right: 3px solid #0467e9;
+  margin-right: 5px;
+}
+
+.employee-contacts-top-bord {
+  margin-top: 10px;
+  border-top: 3px solid #0467e9;
+}
+
+.employee-contacts-cardBG {
+  background-color: white;
+}
+
+.employee-contacts-card-mine {
+  width: max-content;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.employee-contacts-img-modal {
+  width: 170px;
+  height: 130px;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.employee-contacts-ClientDeleteBtn,
+.employee-contacts-ClientEditBtn,
+.employee-contacts-CompanyEditBtn,
+.employee-contacts-CompanyDeleteBtn {
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10%;
+}
+
+.employee-contacts-ClientDeleteBtn :hover,
+.employee-contacts-ClientEditBtn :hover,
+.employee-contacts-CompanyEditBtn :hover,
+.employee-contacts-CompanyDeleteBtn :hover {
+  color: black;
+}
+
+.employee-contacts-ClientEditBtn {
+  margin-right: 20px;
+}
+
+.employee-contacts-CompanyDeleteBtn,
+.employee-contacts-CompanyEditBtn {
+  width: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 30px;
+  margin-right: 30px;
+}
+
+.employee-contacts-clientDetailsSpcing {
+  line-height: 30px;
+}
+
+.employee-contacts-cursor :hover {
+  cursor: pointer;
+}
+
+/* table design*/
+.employee-contacts-table-box {
+  width: auto;
+  height: 19rem;
+  overflow-y: scroll;
+  opacity: 0.7;
+  padding-left: 50px;
+  padding-right: 30px;
+  padding-top: 0px;
+  line-height: 50px;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin-top: 45px;
+  margin-right: 30px;
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.employee-contacts-table-box tbody {
+  width: 100%;
+  overflow: auto;
+  height: 50px;
+}
+
+.employee-contacts-table-box th,
+.employee-contacts-table-box td {
+  padding: 5px 10px;
+  width: 100px;
+}
+
+.employee-contacts-th {
+  background: #fff;
+  position: sticky;
+  top: 0;
+}
+
+.employee-contacts-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.employee-contacts-th:after,
+.employee-contacts-th:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.employee-contacts-th:before {
+  top: -1px;
+  border-top: 1px solid #c0c0c0;
+}
+
+.employee-contacts-th:after {
+  bottom: -2px;
+  border-bottom: 2px solid #c0c0c0;
+}
+
+.employee-contacts-table-box::-webkit-scrollbar {
+  width: 6px;
+}
+
+.employee-contacts-table-box::-webkit-scrollbar-thumb {
+  background: #0467e9;
+  border-radius: 6px;
+}
+
+/*styling for create contact */
+
+.employee-contacts-formcolumn1,
+.employee-contacts-formcolumn2 {
+  float: left;
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  height: auto;
+  width: auto;
+}
+
+.employee-contacts-mainformcolumn1 {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-right: 30px;
+  padding-bottom: 5px;
+  height: auto;
+  width: auto;
+}
+
+.employee-contacts-text-bolder {
+  font-weight: bold;
+}
+
+.employee-contacts-text-secondary {
+  padding-left: 3px;
+}
+
+.employee-contacts-submitButton {
+  float: right;
+  margin-top: 5px;
+  color: #fff;
+  font-weight: 600;
+  height: 40px;
+}
+
+.employee-contacts-addClientColumn {
+  float: left;
+  width: 50%;
+  padding-left: 10px;
+}
+
+.employee-contacts-right-align,
+.employee-contacts-left-align {
+  cursor: pointer;
+  color: #0467e9;
+  padding: 5px;
+  font-weight: 800;
+}
+
+.employee-contacts-right-align {
+  float: right;
+}
+
+.employee-contacts-left-align {
+  width: auto;
+}
+
+.employee-contacts-buttons {
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.employee-contacts-blocked {
+  color: gray;
+  cursor: context-menu;
+}

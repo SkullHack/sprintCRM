@@ -1,0 +1,23 @@
+.gantt-container {
+  height: calc(100vh - 50px - 200px);
+}
+
+.weekend {
+  background: #f4f7f4;
+}
+
+.gantt_selected .weekend {
+  background: #f7eb91;
+}
+
+.gantt_task_progress {
+  text-align: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+  color: white;
+  font-weight: bold;
+}
+.main-content {
+  height: 600px;
+  height: calc(100vh - 50px);
+}

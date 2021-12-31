@@ -1,0 +1,40 @@
+.form_input {
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.formthree .form-control {
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  font-size: 13px;
+  border-bottom: 1px solid #d3d3d3;
+  background: transparent;
+  font-family: "Roboto";
+}
+
+form .btn {
+  border-radius: 0 !important;
+}
+
+.formthree form button.btn {
+  margin: 30px auto;
+  display: block;
+  padding: 11px 32px;
+  background: #4285f4;
+  border: 1px solid #4285f4;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.formthree .btn-primary.focus,
+.formthree .btn-primary:hover {
+  background-color: transparent;
+  color: #4285f4;
+  border: 1px solid #4285f4 !important;
+}

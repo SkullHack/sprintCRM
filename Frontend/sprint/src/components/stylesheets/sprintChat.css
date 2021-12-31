@@ -1,0 +1,193 @@
+.messanger{
+    display: flex;
+}
+.chatMenu{
+    flex: 3.0;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 16em;
+    margin-left: 4rem;
+}
+.chatMenuInput{
+    width: 80%;
+    padding: 10px 0;
+    margin-left: 2rem;
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: white(228, 228, 228);
+    height: 2.5rem;
+    margin-top: 0.8rem;
+}
+.chatOnline{
+    flex: 3.0;
+    margin-top: 16em;
+    background-color: white;
+    border-radius: 25px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.chatBox{
+    flex: 6.5;
+    margin-top: 16em;
+    background-color: white;
+    border-radius: 25px;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.chatBoxBottom{
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatBoxWrapper{
+    padding: 10px;
+    height: 23rem;
+}
+.chatMenuWrapper{
+    padding: 10px;
+    height: 23rem;
+    overflow-y: scroll;
+}
+.chatMenuWrapper::-webkit-scrollbar {
+    width: 6px;
+  }
+  .chatMenuWrapper::-webkit-scrollbar-thumb {
+      background: #0467e9;
+      border-radius: 6px;
+    }
+    .chatBoxWrapper::-webkit-scrollbar {
+        width: 6px;
+      }
+      .chatBoxWrapper::-webkit-scrollbar-thumb {
+          background: hidden;
+          border-radius: 6px;
+        }
+.ContentChatWrap{
+  padding-top: 15.5em;
+  margin-left: 4em;
+  margin-right: 1em;
+  background-color: white;
+}
+.chatMessageInput{
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+}
+.chatSubmitButton{
+    width: 70px;
+    height: 40px;
+    bottom: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: teal;
+    color: white;
+}
+.chatBoxWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chatBoxTop{
+    height: 19rem;
+    overflow-y: scroll;
+    padding: 10px;
+}
+.chatBoxTop::-webkit-scrollbar {
+  width: 6px;
+}
+.chatBoxTop::-webkit-scrollbar-thumb {
+    background: hidden;
+    border-radius: 6px;
+  }
+
+  .noConversationText {
+    padding-top: 10%;
+    color: #aaacaf;
+    cursor: default;
+    text-align: center;
+  }
+  .chatOnlinetop{
+      height: 11em;
+      overflow-y: scroll;
+  }
+  .chatOnlineBottom{
+    height: 11em;
+    overflow-y: scroll;
+  }
+.colorTextDecrease{
+    opacity: 50%;
+}
+.chatOnlineBottom::-webkit-scrollbar {
+    width: 6px;
+  }
+.chatOnlineBottom::-webkit-scrollbar-thumb {
+    background: hidden;
+    border-radius: 6px;
+  }
+  .chatOnlinetop::-webkit-scrollbar {
+    width: 6px;
+  }
+  .chatOnlinetop::-webkit-scrollbar-thumb {
+    background: hidden;
+    border-radius: 6px;
+  }
+
+  .conversation_all{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .conversationImg_all{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  .conversationName_all{
+    font-weight: 500;
+  }
+
+  .conversation_all:hover{
+    background-color: rgb(205, 205, 205);
+}
+
+.notificationPanel{
+  height: 330px;
+      overflow-y: scroll;
+}
+
+.notificationPanel::-webkit-scrollbar {
+  width: 6px;
+}
+
+.notificationPanel::-webkit-scrollbar-thumb {
+  background: hidden;
+  border-radius: 6px;
+}
+
+.notifications .chat_badge{
+  position: absolute;
+  top: 40px;
+  right: -10px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  background-color: black;
+  color:red;
+}
+
+.notificationPanel .closeButton{
+  float: right;
+} 
+
