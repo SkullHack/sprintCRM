@@ -1,0 +1,3 @@
+export const GET_STAGES = 'GET_STAGES';
+export const DELETE_STAGE = 'DELETE_STAGE';
+export const GET_ASSIGNED_STAGE = 'GET_ASSIGNED_STAGE';
